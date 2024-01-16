@@ -5,13 +5,13 @@ relationships:
 
 data:
   - name: Kidney
-    sheetId: 19B_iDwpVTzLl6JLUl7g943p8b14YxYRwOshm-PLbIwk
+    version: v1.4
+    sheet_id: 19B_iDwpVTzLl6JLUl7g943p8b14YxYRwOshm-PLbIwk
     gid: 949267305
-    version: kidney-v1.4
   - name: Eye
-    sheetId: 1tNNPZXL0ycw5gNksDUKHZJpRkKgRdVAUh9AZ6ohpgOA
+    version: v1.4_DRAFT
+    sheet_id: 1tNNPZXL0ycw5gNksDUKHZJpRkKgRdVAUh9AZ6ohpgOA
     gid: 695483621
-    version: eye-v1.4_DRAFT
   - name: 3D-Reference-Organ
-    version: ref-organ-v1.1
+    version: v1.1
     filename: tests/ref-organ-relations.csv
