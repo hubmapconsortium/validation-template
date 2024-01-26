@@ -16,10 +16,10 @@ def main():
     parser.add_argument(
         "-c", "--config", type=pathlib.Path, required=True, help="yaml file"
     )
+    parser.set_defaults(func=validate)
 
     args = parser.parse_args()
-
-    validate(args.config)
+    args.func(args)
 
 
 if __name__ == "__main__":
