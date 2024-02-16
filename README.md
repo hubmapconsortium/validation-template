@@ -35,3 +35,7 @@ There are two possible ways to pass information about your tables.
 | s                   | slabel                                | user_slabel                               | o                  | olabel                                | user_olabel                               |
 |---------------------|---------------------------------------|-------------------------------------------|--------------------|---------------------------------------|-------------------------------------------|
 | the subject term ID | the label of the term in the column s | optional label for the term given by user | the object term ID | the label of the term in the column s | optional label for the term given by user |
+
+2. Use Docker as a toolbox to generate the outputs.
+
+- Run the command: `sh run.sh make reports`
