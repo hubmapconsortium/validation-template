@@ -23,8 +23,10 @@ data:
     filename: tests/ref-organ-relations.tsv
 ```
 
-- The output files will be in the folder `output`. Each subfolder will have the outputs specified by the type: `output/graph`, `output/owl` and `output/report`.
-- The output files names will be generated using `{data.name}-{data.version}.{png,owl,tsv}`.
+- The output files will be in the folder `output`. Each subfolder will have the outputs for each data defined in the `validation-config.yml`. For example, `output/Kidney`, `output/Eye`, etc.
+- The `png` file is the graph view of the table showing the valid and that are not matched relationships.
+- The `tsv` file contains the pairs that are not valid according to the source ontologies.
+- The output files names will be generated using `{data.name}-{data.version}.{png,tsv}`.
 
 There are two possible ways to pass information about your tables.
 - For ASCT+B tables, you need to pass the `sheet_id` and the `gid`
