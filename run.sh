@@ -9,4 +9,4 @@
 # we therefore map the whole repo (../) to a docker volume.
 #
 # See README-editors.md for more details.
-docker run -v $PWD/:/work -w /work -e ROBOT_JAVA_ARGS='-Xmx8G' -e JAVA_OPTS='-Xmx8G' --rm -ti anitacaron/ccf-tools-dep:v2.0 "$@"
+docker run -v $PWD/:/work -w /work -e ROBOT_JAVA_ARGS='-Xmx8G' -e JAVA_OPTS='-Xmx8G' --rm -ti anitacaron/ccf-tools-dep:latest "$@"
